@@ -1,0 +1,76 @@
+@objects
+	body body
+	meni #meni
+	grupelnk #grupelnk
+	vjezbelnk #vjezbelnk
+	grupe #grupe@objects
+	body body
+	meni #meni
+	grupelnk #grupelnk
+	postavirepolnk #postavirepolnk
+	zadacilnk #zadacilnk
+	vjezbelnk #vjezbelnk
+	forma #forma
+	url #url
+	godina #godina
+	branch #branch
+	submitBtn #submitBtn
+
+= Width section =
+	meni:
+		width 98 to 100 % of body/width
+    submitBtn:
+        width 60 to 80 px
+        height 30 px
+
+= Height section =
+
+= Inside section =
+	grupelnk:
+		inside meni
+	vjezbelnk:
+		inside meni
+	url:
+		inside forma
+	godina:
+		inside forma
+	branch:
+		inside forma
+	submitBtn:
+		inside forma
+
+= Left of section =
+	grupelnk:
+		left-of vjezbelnk
+	postavirepolnk:
+		left-of zadacilnk
+
+= Right of section =
+	vjezbelnk:
+		right-of grupelnk
+	zadacilnk:
+		right-of postavirepolnk
+
+= Above section =
+	meni:
+		above forma
+    grupelnk:
+        above vjezbelnk
+    postavirepolnk:
+        above zadacilnk
+    zadacilnk:
+        above forma
+
+= Below section =
+	forma:
+		below meni
+	submitBtn:
+		below branch
+
+= Visible section =
+	meni:
+		visible
+	forma:
+		visible
+
+= Inside partly section =

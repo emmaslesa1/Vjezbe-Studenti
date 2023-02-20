@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://localhost:3000/css/postaviGrupu.css">
+    <title>Dodaj batch</title>
+</head>
+
+<body>
+    <div class="pregled">
+        <div id="meni">
+            <ul id="meni-lista">
+                <li><a id="grupelnk" href="http://localhost:3000/grupe.html">Grupe</a></li>
+                <li><a id="vjezbelnk" href="http://localhost:3000/vježbe.html">Vježbe</a></li>
+                <li><a id="postavirepolnk" href="http://localhost:3000/mojRepozitorij.html">Postavi repozitorij</a></li>
+                <li><a id="zadacilnk" href="http://localhost:3000/zadaci.html">Zadaci</a></li>
+                <li><a id="unosvjezbilnk" href="http://localhost:3000/unosVjezbi.html">Unos vježbi</a></li>
+                <li><a id="unosvjezbilnk" href="http://localhost:3000/dodajStudenta.html">Dodaj studenta</a></li>
+                <li><a id="unosvjezbilnk" href="http://localhost:3000/postaviGrupu.html">Postavi grupu</a></li>
+                <li><a id="unosvjezbilnk" href="#">Dodaj batch</a></li>
+            </ul>
+        </div>
+        <div id="forma">
+            <div id="ajaxstatus"></div>
+            <form>
+                <div>
+                    <label for="csvStudenti">Dodajte više studenata u CSV formatu (ime,prezime,index,grupa): </label>
+                    <textarea id="csvStudenti" name="csvStudenti" cols="60" rows="10"></textarea>
+                </div>
+                <button id="btnPosaljiPodatke">Pošalji podatke</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="http://localhost:3000/js/StudentAjax.js"></script>
+    <script src="http://localhost:3000/js/dodajBatch.js"></script>
+</body>
+
+</html>

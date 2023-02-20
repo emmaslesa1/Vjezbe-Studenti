@@ -1,0 +1,500 @@
+{
+  "testId" : "1-z3mobile-mojrepozitorij.gspec",
+  "name" : "z3Mobile-mojRepozitorij.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  z3Mobile-mojRepozitorij.gspec --url http://localhost/mojRepozitorij.html --size 425x629 --htmlreport izvjestaji",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: z3Mobile-mojRepozitorij.gspec included tags: ",
+          "status" : "error",
+          "time" : 1637099550940,
+          "sections" : [ {
+            "name" : "Width section",
+            "place" : {
+              "filePath" : "z3Mobile-mojRepozitorij.gspec",
+              "lineNumber" : 19
+            },
+            "objects" : [ {
+              "name" : "meni",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Mobile-mojRepozitorij.gspec",
+                  "lineNumber" : 21
+                },
+                "name" : "width 98 to 100 % of body/width",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "meni",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "meni",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "98 to 100% [474 to 484px]",
+                  "realDistance" : "98% [479px]"
+                } ],
+                "highlight" : [ "meni" ]
+              } ]
+            }, {
+              "name" : "submitBtn",
+              "specs" : [ {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "z3Mobile-mojRepozitorij.gspec",
+                  "lineNumber" : 23
+                },
+                "name" : "width 60 to 80 px",
+                "errors" : [ "\"submitBtn\" width is 90px which is not in range of 60 to 80px" ],
+                "meta" : [ {
+                  "from" : {
+                    "object" : "submitBtn",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "submitBtn",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "60 to 80px",
+                  "realDistance" : "90px"
+                } ],
+                "highlight" : [ "submitBtn" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Mobile-mojRepozitorij.gspec",
+                  "lineNumber" : 24
+                },
+                "name" : "height 30 px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "submitBtn",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "submitBtn",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "30px",
+                  "realDistance" : "30px"
+                } ],
+                "highlight" : [ "submitBtn" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Inside section",
+            "place" : {
+              "filePath" : "z3Mobile-mojRepozitorij.gspec",
+              "lineNumber" : 28
+            },
+            "objects" : [ {
+              "name" : "grupelnk",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Mobile-mojRepozitorij.gspec",
+                  "lineNumber" : 30
+                },
+                "name" : "inside meni",
+                "meta" : [ ],
+                "highlight" : [ "grupelnk", "meni" ]
+              } ]
+            }, {
+              "name" : "vjezbelnk",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Mobile-mojRepozitorij.gspec",
+                  "lineNumber" : 32
+                },
+                "name" : "inside meni",
+                "meta" : [ ],
+                "highlight" : [ "vjezbelnk", "meni" ]
+              } ]
+            }, {
+              "name" : "url",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Mobile-mojRepozitorij.gspec",
+                  "lineNumber" : 34
+                },
+                "name" : "inside forma",
+                "meta" : [ ],
+                "highlight" : [ "url", "forma" ]
+              } ]
+            }, {
+              "name" : "godina",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Mobile-mojRepozitorij.gspec",
+                  "lineNumber" : 36
+                },
+                "name" : "inside forma",
+                "meta" : [ ],
+                "highlight" : [ "godina", "forma" ]
+              } ]
+            }, {
+              "name" : "branch",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Mobile-mojRepozitorij.gspec",
+                  "lineNumber" : 38
+                },
+                "name" : "inside forma",
+                "meta" : [ ],
+                "highlight" : [ "branch", "forma" ]
+              } ]
+            }, {
+              "name" : "submitBtn",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Mobile-mojRepozitorij.gspec",
+                  "lineNumber" : 40
+                },
+                "name" : "inside forma",
+                "meta" : [ ],
+                "highlight" : [ "submitBtn", "forma" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Left of section",
+            "place" : {
+              "filePath" : "z3Mobile-mojRepozitorij.gspec",
+              "lineNumber" : 42
+            },
+            "objects" : [ {
+              "name" : "grupelnk",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Mobile-mojRepozitorij.gspec",
+                  "lineNumber" : 44
+                },
+                "name" : "left-of vjezbelnk",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "grupelnk",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "vjezbelnk",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "20px"
+                } ],
+                "highlight" : [ "grupelnk", "vjezbelnk" ]
+              } ]
+            }, {
+              "name" : "postavirepolnk",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Mobile-mojRepozitorij.gspec",
+                  "lineNumber" : 46
+                },
+                "name" : "left-of zadacilnk",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "postavirepolnk",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "zadacilnk",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "20px"
+                } ],
+                "highlight" : [ "postavirepolnk", "zadacilnk" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Right of section",
+            "place" : {
+              "filePath" : "z3Mobile-mojRepozitorij.gspec",
+              "lineNumber" : 48
+            },
+            "objects" : [ {
+              "name" : "vjezbelnk",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Mobile-mojRepozitorij.gspec",
+                  "lineNumber" : 50
+                },
+                "name" : "right-of grupelnk",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "vjezbelnk",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "grupelnk",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "20px"
+                } ],
+                "highlight" : [ "vjezbelnk", "grupelnk" ]
+              } ]
+            }, {
+              "name" : "zadacilnk",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Mobile-mojRepozitorij.gspec",
+                  "lineNumber" : 52
+                },
+                "name" : "right-of postavirepolnk",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "zadacilnk",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "postavirepolnk",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "20px"
+                } ],
+                "highlight" : [ "zadacilnk", "postavirepolnk" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Above section",
+            "place" : {
+              "filePath" : "z3Mobile-mojRepozitorij.gspec",
+              "lineNumber" : 54
+            },
+            "objects" : [ {
+              "name" : "meni",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Mobile-mojRepozitorij.gspec",
+                  "lineNumber" : 56
+                },
+                "name" : "above forma",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "meni",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "forma",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "0px"
+                } ],
+                "highlight" : [ "meni", "forma" ]
+              } ]
+            }, {
+              "name" : "grupelnk",
+              "specs" : [ {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "z3Mobile-mojRepozitorij.gspec",
+                  "lineNumber" : 58
+                },
+                "name" : "above vjezbelnk",
+                "errors" : [ "\"grupelnk\" is -21px above \"vjezbelnk\" but it should be greater than or equal to 0px" ],
+                "meta" : [ {
+                  "from" : {
+                    "object" : "grupelnk",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "vjezbelnk",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "-21px"
+                } ],
+                "highlight" : [ "grupelnk", "vjezbelnk" ]
+              } ]
+            }, {
+              "name" : "postavirepolnk",
+              "specs" : [ {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "z3Mobile-mojRepozitorij.gspec",
+                  "lineNumber" : 60
+                },
+                "name" : "above zadacilnk",
+                "errors" : [ "\"postavirepolnk\" is -21px above \"zadacilnk\" but it should be greater than or equal to 0px" ],
+                "meta" : [ {
+                  "from" : {
+                    "object" : "postavirepolnk",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "zadacilnk",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "-21px"
+                } ],
+                "highlight" : [ "postavirepolnk", "zadacilnk" ]
+              } ]
+            }, {
+              "name" : "zadacilnk",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Mobile-mojRepozitorij.gspec",
+                  "lineNumber" : 62
+                },
+                "name" : "above forma",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "zadacilnk",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "forma",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "48px"
+                } ],
+                "highlight" : [ "zadacilnk", "forma" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Below section",
+            "place" : {
+              "filePath" : "z3Mobile-mojRepozitorij.gspec",
+              "lineNumber" : 64
+            },
+            "objects" : [ {
+              "name" : "forma",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Mobile-mojRepozitorij.gspec",
+                  "lineNumber" : 66
+                },
+                "name" : "below meni",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "forma",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "meni",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "0px"
+                } ],
+                "highlight" : [ "forma", "meni" ]
+              } ]
+            }, {
+              "name" : "submitBtn",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Mobile-mojRepozitorij.gspec",
+                  "lineNumber" : 68
+                },
+                "name" : "below branch",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "submitBtn",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "branch",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "25px"
+                } ],
+                "highlight" : [ "submitBtn", "branch" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Visible section",
+            "place" : {
+              "filePath" : "z3Mobile-mojRepozitorij.gspec",
+              "lineNumber" : 70
+            },
+            "objects" : [ {
+              "name" : "meni",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Mobile-mojRepozitorij.gspec",
+                  "lineNumber" : 72
+                },
+                "name" : "visible",
+                "highlight" : [ "meni" ]
+              } ]
+            }, {
+              "name" : "forma",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Mobile-mojRepozitorij.gspec",
+                  "lineNumber" : 74
+                },
+                "name" : "visible",
+                "highlight" : [ "forma" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "meni" : {
+              "area" : [ 10, 10, 479, 100 ]
+            },
+            "submitBtn" : {
+              "area" : [ 205, 284, 90, 30 ]
+            },
+            "zadacilnk" : {
+              "area" : [ 365, 41, 52, 21 ]
+            },
+            "grupelnk" : {
+              "area" : [ 62, 41, 48, 21 ]
+            },
+            "forma" : {
+              "area" : [ 10, 110, 479, 250 ]
+            },
+            "vjezbelnk" : {
+              "area" : [ 130, 41, 54, 21 ]
+            },
+            "branch" : {
+              "area" : [ 267, 233, 208, 26 ]
+            },
+            "postavirepolnk" : {
+              "area" : [ 204, 41, 141, 21 ]
+            },
+            "url" : {
+              "area" : [ 267, 161, 208, 26 ]
+            },
+            "godina" : {
+              "area" : [ 267, 197, 208, 26 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1637099547250,
+        "type" : "node"
+      } ],
+      "time" : 1637099543054,
+      "type" : "node"
+    } ]
+  }
+}

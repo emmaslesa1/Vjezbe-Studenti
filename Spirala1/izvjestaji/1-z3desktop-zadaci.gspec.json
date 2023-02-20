@@ -1,0 +1,856 @@
+{
+  "testId" : "1-z3desktop-zadaci.gspec",
+  "name" : "z3Desktop-zadaci.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  z3Desktop-zadaci.gspec --url http://localhost/zadaci.html --size 1024x768 --htmlreport izvjestaji",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: z3Desktop-zadaci.gspec included tags: ",
+          "status" : "info",
+          "time" : 1637100602471,
+          "sections" : [ {
+            "name" : "Width section",
+            "place" : {
+              "filePath" : "z3Desktop-zadaci.gspec",
+              "lineNumber" : 19
+            },
+            "objects" : [ {
+              "name" : "meni",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Desktop-zadaci.gspec",
+                  "lineNumber" : 21
+                },
+                "name" : "width 98 to 100 % of body/width",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "meni",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "meni",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "98 to 100% [975 to 995px]",
+                  "realDistance" : "99% [986px]"
+                } ],
+                "highlight" : [ "meni" ]
+              } ]
+            }, {
+              "name" : "forma1",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Desktop-zadaci.gspec",
+                  "lineNumber" : 23
+                },
+                "name" : "width 45 to 55 % of body/width",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "forma1",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "forma1",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "45 to 55% [447 to 547px]",
+                  "realDistance" : "47% [470px]"
+                } ],
+                "highlight" : [ "forma1" ]
+              } ]
+            }, {
+              "name" : "forma2",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Desktop-zadaci.gspec",
+                  "lineNumber" : 25
+                },
+                "name" : "width 45 to 55 % of body/width",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "forma2",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "forma2",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "45 to 55% [447 to 547px]",
+                  "realDistance" : "47% [470px]"
+                } ],
+                "highlight" : [ "forma2" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Inside section",
+            "place" : {
+              "filePath" : "z3Desktop-zadaci.gspec",
+              "lineNumber" : 27
+            },
+            "objects" : [ {
+              "name" : "grupelnk",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Desktop-zadaci.gspec",
+                  "lineNumber" : 29
+                },
+                "name" : "inside meni",
+                "meta" : [ ],
+                "highlight" : [ "grupelnk", "meni" ]
+              } ]
+            }, {
+              "name" : "vjezbelnk",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Desktop-zadaci.gspec",
+                  "lineNumber" : 31
+                },
+                "name" : "inside meni",
+                "meta" : [ ],
+                "highlight" : [ "vjezbelnk", "meni" ]
+              } ]
+            }, {
+              "name" : "postavirepolnk",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Desktop-zadaci.gspec",
+                  "lineNumber" : 33
+                },
+                "name" : "inside meni",
+                "meta" : [ ],
+                "highlight" : [ "postavirepolnk", "meni" ]
+              } ]
+            }, {
+              "name" : "zadacilnk",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Desktop-zadaci.gspec",
+                  "lineNumber" : 35
+                },
+                "name" : "inside meni",
+                "meta" : [ ],
+                "highlight" : [ "zadacilnk", "meni" ]
+              } ]
+            }, {
+              "name" : "odabirVjezbe",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Desktop-zadaci.gspec",
+                  "lineNumber" : 37
+                },
+                "name" : "inside forma1",
+                "meta" : [ ],
+                "highlight" : [ "odabirVjezbe", "forma1" ]
+              } ]
+            }, {
+              "name" : "odabirZadatka",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Desktop-zadaci.gspec",
+                  "lineNumber" : 39
+                },
+                "name" : "inside forma1",
+                "meta" : [ ],
+                "highlight" : [ "odabirZadatka", "forma1" ]
+              } ]
+            }, {
+              "name" : "odabirVerzije",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Desktop-zadaci.gspec",
+                  "lineNumber" : 41
+                },
+                "name" : "inside forma1",
+                "meta" : [ ],
+                "highlight" : [ "odabirVerzije", "forma1" ]
+              } ]
+            }, {
+              "name" : "komentar",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Desktop-zadaci.gspec",
+                  "lineNumber" : 43
+                },
+                "name" : "inside forma1",
+                "meta" : [ ],
+                "highlight" : [ "komentar", "forma1" ]
+              } ]
+            }, {
+              "name" : "submitBtn",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Desktop-zadaci.gspec",
+                  "lineNumber" : 45
+                },
+                "name" : "inside forma1",
+                "meta" : [ ],
+                "highlight" : [ "submitBtn", "forma1" ]
+              } ]
+            }, {
+              "name" : "errors",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Desktop-zadaci.gspec",
+                  "lineNumber" : 47
+                },
+                "name" : "inside forma2",
+                "meta" : [ ],
+                "highlight" : [ "errors", "forma2" ]
+              } ]
+            }, {
+              "name" : "bezGresaka",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Desktop-zadaci.gspec",
+                  "lineNumber" : 49
+                },
+                "name" : "inside forma2",
+                "meta" : [ ],
+                "highlight" : [ "bezGresaka", "forma2" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Left of section",
+            "place" : {
+              "filePath" : "z3Desktop-zadaci.gspec",
+              "lineNumber" : 51
+            },
+            "objects" : [ {
+              "name" : "postavirepolnk",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Desktop-zadaci.gspec",
+                  "lineNumber" : 53
+                },
+                "name" : "left-of zadacilnk",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "postavirepolnk",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "zadacilnk",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "19px"
+                } ],
+                "highlight" : [ "postavirepolnk", "zadacilnk" ]
+              } ]
+            }, {
+              "name" : "vjezbelnk",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Desktop-zadaci.gspec",
+                  "lineNumber" : 55
+                },
+                "name" : "left-of postavirepolnk",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "vjezbelnk",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "postavirepolnk",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "21px"
+                } ],
+                "highlight" : [ "vjezbelnk", "postavirepolnk" ]
+              } ]
+            }, {
+              "name" : "grupelnk",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Desktop-zadaci.gspec",
+                  "lineNumber" : 57
+                },
+                "name" : "left-of vjezbelnk",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "grupelnk",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "vjezbelnk",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "20px"
+                } ],
+                "highlight" : [ "grupelnk", "vjezbelnk" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Right of section",
+            "place" : {
+              "filePath" : "z3Desktop-zadaci.gspec",
+              "lineNumber" : 59
+            },
+            "objects" : [ {
+              "name" : "vjezbelnk",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Desktop-zadaci.gspec",
+                  "lineNumber" : 61
+                },
+                "name" : "right-of grupelnk",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "vjezbelnk",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "grupelnk",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "20px"
+                } ],
+                "highlight" : [ "vjezbelnk", "grupelnk" ]
+              } ]
+            }, {
+              "name" : "postavirepolnk",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Desktop-zadaci.gspec",
+                  "lineNumber" : 63
+                },
+                "name" : "right-of vjezbelnk",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "postavirepolnk",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "vjezbelnk",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "21px"
+                } ],
+                "highlight" : [ "postavirepolnk", "vjezbelnk" ]
+              } ]
+            }, {
+              "name" : "zadacilnk",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Desktop-zadaci.gspec",
+                  "lineNumber" : 65
+                },
+                "name" : "right-of postavirepolnk",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "zadacilnk",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "postavirepolnk",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "19px"
+                } ],
+                "highlight" : [ "zadacilnk", "postavirepolnk" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Above section",
+            "place" : {
+              "filePath" : "z3Desktop-zadaci.gspec",
+              "lineNumber" : 67
+            },
+            "objects" : [ {
+              "name" : "odabirVjezbe",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Desktop-zadaci.gspec",
+                  "lineNumber" : 69
+                },
+                "name" : "above odabirZadatka",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "odabirVjezbe",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "odabirZadatka",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "10px"
+                } ],
+                "highlight" : [ "odabirVjezbe", "odabirZadatka" ]
+              } ]
+            }, {
+              "name" : "odabirZadatka",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Desktop-zadaci.gspec",
+                  "lineNumber" : 71
+                },
+                "name" : "above odabirVerzije",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "odabirZadatka",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "odabirVerzije",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "10px"
+                } ],
+                "highlight" : [ "odabirZadatka", "odabirVerzije" ]
+              } ]
+            }, {
+              "name" : "odabirVerzije",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Desktop-zadaci.gspec",
+                  "lineNumber" : 73
+                },
+                "name" : "above komentar",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "odabirVerzije",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "komentar",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "10px"
+                } ],
+                "highlight" : [ "odabirVerzije", "komentar" ]
+              } ]
+            }, {
+              "name" : "komentar",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Desktop-zadaci.gspec",
+                  "lineNumber" : 75
+                },
+                "name" : "above submitBtn",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "komentar",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "submitBtn",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "25px"
+                } ],
+                "highlight" : [ "komentar", "submitBtn" ]
+              } ]
+            }, {
+              "name" : "forma1",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Desktop-zadaci.gspec",
+                  "lineNumber" : 77
+                },
+                "name" : "above forma2 ~ 0px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "forma1",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "forma2",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "-1 to 1px",
+                  "realDistance" : "-1px"
+                } ],
+                "highlight" : [ "forma1", "forma2" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Below section",
+            "place" : {
+              "filePath" : "z3Desktop-zadaci.gspec",
+              "lineNumber" : 79
+            },
+            "objects" : [ {
+              "name" : "odabirZadatka",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Desktop-zadaci.gspec",
+                  "lineNumber" : 81
+                },
+                "name" : "below odabirVjezbe",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "odabirZadatka",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "odabirVjezbe",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "10px"
+                } ],
+                "highlight" : [ "odabirZadatka", "odabirVjezbe" ]
+              } ]
+            }, {
+              "name" : "odabirVerzije",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Desktop-zadaci.gspec",
+                  "lineNumber" : 83
+                },
+                "name" : "below odabirZadatka",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "odabirVerzije",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "odabirZadatka",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "10px"
+                } ],
+                "highlight" : [ "odabirVerzije", "odabirZadatka" ]
+              } ]
+            }, {
+              "name" : "komentar",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Desktop-zadaci.gspec",
+                  "lineNumber" : 85
+                },
+                "name" : "below odabirVerzije",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "komentar",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "odabirVerzije",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "10px"
+                } ],
+                "highlight" : [ "komentar", "odabirVerzije" ]
+              } ]
+            }, {
+              "name" : "submitBtn",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Desktop-zadaci.gspec",
+                  "lineNumber" : 87
+                },
+                "name" : "below komentar",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "submitBtn",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "komentar",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "25px"
+                } ],
+                "highlight" : [ "submitBtn", "komentar" ]
+              } ]
+            }, {
+              "name" : "forma2",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Desktop-zadaci.gspec",
+                  "lineNumber" : 89
+                },
+                "name" : "below forma1 ~ 0px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "forma2",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "forma1",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "-1 to 1px",
+                  "realDistance" : "-1px"
+                } ],
+                "highlight" : [ "forma2", "forma1" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Visible section",
+            "place" : {
+              "filePath" : "z3Desktop-zadaci.gspec",
+              "lineNumber" : 91
+            },
+            "objects" : [ {
+              "name" : "meni",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Desktop-zadaci.gspec",
+                  "lineNumber" : 93
+                },
+                "name" : "visible",
+                "highlight" : [ "meni" ]
+              } ]
+            }, {
+              "name" : "grupelnk",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Desktop-zadaci.gspec",
+                  "lineNumber" : 95
+                },
+                "name" : "visible",
+                "highlight" : [ "grupelnk" ]
+              } ]
+            }, {
+              "name" : "vjezbelnk",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Desktop-zadaci.gspec",
+                  "lineNumber" : 97
+                },
+                "name" : "visible",
+                "highlight" : [ "vjezbelnk" ]
+              } ]
+            }, {
+              "name" : "postavirepolnk",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Desktop-zadaci.gspec",
+                  "lineNumber" : 99
+                },
+                "name" : "visible",
+                "highlight" : [ "postavirepolnk" ]
+              } ]
+            }, {
+              "name" : "zadacilnk",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Desktop-zadaci.gspec",
+                  "lineNumber" : 101
+                },
+                "name" : "visible",
+                "highlight" : [ "zadacilnk" ]
+              } ]
+            }, {
+              "name" : "forma1",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Desktop-zadaci.gspec",
+                  "lineNumber" : 103
+                },
+                "name" : "visible",
+                "highlight" : [ "forma1" ]
+              } ]
+            }, {
+              "name" : "forma2",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Desktop-zadaci.gspec",
+                  "lineNumber" : 105
+                },
+                "name" : "visible",
+                "highlight" : [ "forma2" ]
+              } ]
+            }, {
+              "name" : "odabirZadatka",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Desktop-zadaci.gspec",
+                  "lineNumber" : 107
+                },
+                "name" : "visible",
+                "highlight" : [ "odabirZadatka" ]
+              } ]
+            }, {
+              "name" : "odabirVjezbe",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Desktop-zadaci.gspec",
+                  "lineNumber" : 109
+                },
+                "name" : "visible",
+                "highlight" : [ "odabirVjezbe" ]
+              } ]
+            }, {
+              "name" : "odabirVerzije",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Desktop-zadaci.gspec",
+                  "lineNumber" : 111
+                },
+                "name" : "visible",
+                "highlight" : [ "odabirVerzije" ]
+              } ]
+            }, {
+              "name" : "komentar",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Desktop-zadaci.gspec",
+                  "lineNumber" : 113
+                },
+                "name" : "visible",
+                "highlight" : [ "komentar" ]
+              } ]
+            }, {
+              "name" : "submitBtn",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Desktop-zadaci.gspec",
+                  "lineNumber" : 115
+                },
+                "name" : "visible",
+                "highlight" : [ "submitBtn" ]
+              } ]
+            }, {
+              "name" : "errors",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Desktop-zadaci.gspec",
+                  "lineNumber" : 117
+                },
+                "name" : "visible",
+                "highlight" : [ "errors" ]
+              } ]
+            }, {
+              "name" : "bezGresaka",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Desktop-zadaci.gspec",
+                  "lineNumber" : 119
+                },
+                "name" : "visible",
+                "highlight" : [ "bezGresaka" ]
+              } ]
+            }, {
+              "name" : "submitBtn2",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Desktop-zadaci.gspec",
+                  "lineNumber" : 121
+                },
+                "name" : "visible",
+                "highlight" : [ "submitBtn2" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "meni" : {
+              "area" : [ 12, 10, 986, 100 ]
+            },
+            "submitBtn2" : {
+              "area" : [ 445, 301, 120, 30 ]
+            },
+            "odabirVjezbe" : {
+              "area" : [ 430, 135, 300, 20 ]
+            },
+            "submitBtn" : {
+              "area" : [ 445, 301, 120, 30 ]
+            },
+            "komentar" : {
+              "area" : [ 428, 225, 302, 51 ]
+            },
+            "forma2" : {
+              "area" : [ 270, 341, 470, 161 ]
+            },
+            "grupelnk" : {
+              "area" : [ 53, 27, 48, 21 ]
+            },
+            "forma1" : {
+              "area" : [ 270, 120, 470, 222 ]
+            },
+            "odabirVerzije" : {
+              "area" : [ 430, 195, 300, 20 ]
+            },
+            "odabirZadatka" : {
+              "area" : [ 430, 165, 300, 20 ]
+            },
+            "bezGresaka" : {
+              "area" : [ 714, 421, 13, 13 ]
+            },
+            "zadacilnk" : {
+              "area" : [ 357, 27, 52, 21 ]
+            },
+            "vjezbelnk" : {
+              "area" : [ 121, 27, 54, 21 ]
+            },
+            "postavirepolnk" : {
+              "area" : [ 196, 27, 142, 21 ]
+            },
+            "errors" : {
+              "area" : [ 428, 356, 302, 51 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1637100597550,
+        "type" : "node"
+      } ],
+      "time" : 1637100593179,
+      "type" : "node"
+    } ]
+  }
+}

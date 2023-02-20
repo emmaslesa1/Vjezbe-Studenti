@@ -1,0 +1,839 @@
+{
+  "testId" : "1-z1desktop.gspec",
+  "name" : "z1Desktop.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  z1Desktop.gspec --url http://localhost/grupe.html --size 1024x768 --htmlreport izvjestaji",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: z1Desktop.gspec included tags: ",
+          "status" : "info",
+          "time" : 1637100657861,
+          "sections" : [ {
+            "name" : "Width section",
+            "place" : {
+              "filePath" : "z1Desktop.gspec",
+              "lineNumber" : 15
+            },
+            "objects" : [ {
+              "name" : "meni",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z1Desktop.gspec",
+                  "lineNumber" : 17
+                },
+                "name" : "width 98 to 100 % of body/width",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "meni",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "meni",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "98 to 100% [975 to 995px]",
+                  "realDistance" : "99% [989px]"
+                } ],
+                "highlight" : [ "meni" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z1Desktop.gspec",
+                  "lineNumber" : 75
+                },
+                "name" : "width 98 to 100 % of body/width",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "meni",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "meni",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "98 to 100% [975 to 995px]",
+                  "realDistance" : "99% [989px]"
+                } ],
+                "highlight" : [ "meni" ]
+              } ]
+            }, {
+              "name" : "studenti",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z1Desktop.gspec",
+                  "lineNumber" : 19
+                },
+                "name" : "width 58 to 60 % of body/width",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "studenti",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "studenti",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "58 to 60% [577 to 597px]",
+                  "realDistance" : "59% [589px]"
+                } ],
+                "highlight" : [ "studenti" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z1Desktop.gspec",
+                  "lineNumber" : 77
+                },
+                "name" : "width 58 to 60 % of body/width",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "studenti",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "studenti",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "58 to 60% [577 to 597px]",
+                  "realDistance" : "59% [589px]"
+                } ],
+                "highlight" : [ "studenti" ]
+              } ]
+            }, {
+              "name" : "grupe",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z1Desktop.gspec",
+                  "lineNumber" : 21
+                },
+                "name" : "width 39 to 41 % of body/width",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "grupe",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "grupe",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "39 to 41% [388 to 407px]",
+                  "realDistance" : "40% [403px]"
+                } ],
+                "highlight" : [ "grupe" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z1Desktop.gspec",
+                  "lineNumber" : 79
+                },
+                "name" : "width 39 to 41 % of body/width",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "grupe",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "grupe",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "39 to 41% [388 to 407px]",
+                  "realDistance" : "40% [403px]"
+                } ],
+                "highlight" : [ "grupe" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Inside section",
+            "place" : {
+              "filePath" : "z1Desktop.gspec",
+              "lineNumber" : 25
+            },
+            "objects" : [ {
+              "name" : "grupelnk",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z1Desktop.gspec",
+                  "lineNumber" : 27
+                },
+                "name" : "inside meni",
+                "meta" : [ ],
+                "highlight" : [ "grupelnk", "meni" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z1Desktop.gspec",
+                  "lineNumber" : 85
+                },
+                "name" : "inside meni",
+                "meta" : [ ],
+                "highlight" : [ "grupelnk", "meni" ]
+              } ]
+            }, {
+              "name" : "vjezbelnk",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z1Desktop.gspec",
+                  "lineNumber" : 29
+                },
+                "name" : "inside meni",
+                "meta" : [ ],
+                "highlight" : [ "vjezbelnk", "meni" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z1Desktop.gspec",
+                  "lineNumber" : 87
+                },
+                "name" : "inside meni",
+                "meta" : [ ],
+                "highlight" : [ "vjezbelnk", "meni" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Left of section",
+            "place" : {
+              "filePath" : "z1Desktop.gspec",
+              "lineNumber" : 31
+            },
+            "objects" : [ {
+              "name" : "grupelnk",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z1Desktop.gspec",
+                  "lineNumber" : 33
+                },
+                "name" : "left-of vjezbelnk",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "grupelnk",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "vjezbelnk",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "20px"
+                } ],
+                "highlight" : [ "grupelnk", "vjezbelnk" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z1Desktop.gspec",
+                  "lineNumber" : 91
+                },
+                "name" : "left-of vjezbelnk",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "grupelnk",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "vjezbelnk",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "20px"
+                } ],
+                "highlight" : [ "grupelnk", "vjezbelnk" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Right of section",
+            "place" : {
+              "filePath" : "z1Desktop.gspec",
+              "lineNumber" : 35
+            },
+            "objects" : [ {
+              "name" : "vjezbelnk",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z1Desktop.gspec",
+                  "lineNumber" : 37
+                },
+                "name" : "right-of grupelnk",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "vjezbelnk",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "grupelnk",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "20px"
+                } ],
+                "highlight" : [ "vjezbelnk", "grupelnk" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z1Desktop.gspec",
+                  "lineNumber" : 95
+                },
+                "name" : "right-of grupelnk",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "vjezbelnk",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "grupelnk",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "20px"
+                } ],
+                "highlight" : [ "vjezbelnk", "grupelnk" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Above section",
+            "place" : {
+              "filePath" : "z1Desktop.gspec",
+              "lineNumber" : 39
+            },
+            "objects" : [ {
+              "name" : "meni",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z1Desktop.gspec",
+                  "lineNumber" : 41
+                },
+                "name" : "above grupe",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "meni",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "grupe",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "0px"
+                } ],
+                "highlight" : [ "meni", "grupe" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z1Desktop.gspec",
+                  "lineNumber" : 99
+                },
+                "name" : "above grupe",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "meni",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "grupe",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "0px"
+                } ],
+                "highlight" : [ "meni", "grupe" ]
+              } ]
+            }, {
+              "name" : "grupelnk",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z1Desktop.gspec",
+                  "lineNumber" : 43
+                },
+                "name" : "above studenti",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "grupelnk",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "studenti",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "63px"
+                } ],
+                "highlight" : [ "grupelnk", "studenti" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z1Desktop.gspec",
+                  "lineNumber" : 101
+                },
+                "name" : "above studenti",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "grupelnk",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "studenti",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "63px"
+                } ],
+                "highlight" : [ "grupelnk", "studenti" ]
+              } ]
+            }, {
+              "name" : "vjezbelnk",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z1Desktop.gspec",
+                  "lineNumber" : 45
+                },
+                "name" : "above studenti",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "vjezbelnk",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "studenti",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "63px"
+                } ],
+                "highlight" : [ "vjezbelnk", "studenti" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z1Desktop.gspec",
+                  "lineNumber" : 103
+                },
+                "name" : "above studenti",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "vjezbelnk",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "studenti",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "63px"
+                } ],
+                "highlight" : [ "vjezbelnk", "studenti" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Below section",
+            "place" : {
+              "filePath" : "z1Desktop.gspec",
+              "lineNumber" : 47
+            },
+            "objects" : [ {
+              "name" : "grupe",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z1Desktop.gspec",
+                  "lineNumber" : 49
+                },
+                "name" : "below meni",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "grupe",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "meni",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "0px"
+                } ],
+                "highlight" : [ "grupe", "meni" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z1Desktop.gspec",
+                  "lineNumber" : 107
+                },
+                "name" : "below meni",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "grupe",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "meni",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "0px"
+                } ],
+                "highlight" : [ "grupe", "meni" ]
+              } ]
+            }, {
+              "name" : "studenti",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z1Desktop.gspec",
+                  "lineNumber" : 51
+                },
+                "name" : "below grupelnk",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "studenti",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "grupelnk",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "63px"
+                } ],
+                "highlight" : [ "studenti", "grupelnk" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z1Desktop.gspec",
+                  "lineNumber" : 53
+                },
+                "name" : "below vjezbelnk",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "studenti",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "vjezbelnk",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "63px"
+                } ],
+                "highlight" : [ "studenti", "vjezbelnk" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z1Desktop.gspec",
+                  "lineNumber" : 109
+                },
+                "name" : "below grupelnk",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "studenti",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "grupelnk",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "63px"
+                } ],
+                "highlight" : [ "studenti", "grupelnk" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z1Desktop.gspec",
+                  "lineNumber" : 111
+                },
+                "name" : "below vjezbelnk",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "studenti",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "vjezbelnk",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "63px"
+                } ],
+                "highlight" : [ "studenti", "vjezbelnk" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Visible section",
+            "place" : {
+              "filePath" : "z1Desktop.gspec",
+              "lineNumber" : 54
+            },
+            "objects" : [ {
+              "name" : "meni",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z1Desktop.gspec",
+                  "lineNumber" : 56
+                },
+                "name" : "visible",
+                "highlight" : [ "meni" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z1Desktop.gspec",
+                  "lineNumber" : 114
+                },
+                "name" : "visible",
+                "highlight" : [ "meni" ]
+              } ]
+            }, {
+              "name" : "studenti",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z1Desktop.gspec",
+                  "lineNumber" : 58
+                },
+                "name" : "visible",
+                "highlight" : [ "studenti" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z1Desktop.gspec",
+                  "lineNumber" : 116
+                },
+                "name" : "visible",
+                "highlight" : [ "studenti" ]
+              } ]
+            }, {
+              "name" : "grupelnk",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z1Desktop.gspec",
+                  "lineNumber" : 60
+                },
+                "name" : "visible",
+                "highlight" : [ "grupelnk" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z1Desktop.gspec",
+                  "lineNumber" : 118
+                },
+                "name" : "visible",
+                "highlight" : [ "grupelnk" ]
+              } ]
+            }, {
+              "name" : "vjezbelnk",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z1Desktop.gspec",
+                  "lineNumber" : 62
+                },
+                "name" : "visible",
+                "highlight" : [ "vjezbelnk" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z1Desktop.gspec",
+                  "lineNumber" : 120
+                },
+                "name" : "visible",
+                "highlight" : [ "vjezbelnk" ]
+              } ]
+            }, {
+              "name" : "grupe",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z1Desktop.gspec",
+                  "lineNumber" : 64
+                },
+                "name" : "visible",
+                "highlight" : [ "grupe" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z1Desktop.gspec",
+                  "lineNumber" : 122
+                },
+                "name" : "visible",
+                "highlight" : [ "grupe" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Inside partly section",
+            "place" : {
+              "filePath" : "z1Desktop.gspec",
+              "lineNumber" : 66
+            },
+            "objects" : [ {
+              "name" : "meni",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z1Desktop.gspec",
+                  "lineNumber" : 68
+                },
+                "name" : "inside partly body ~0px left, ~0px top",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "meni",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "body",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "-1 to 1px",
+                  "realDistance" : "1px"
+                }, {
+                  "from" : {
+                    "object" : "meni",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "body",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "-1 to 1px",
+                  "realDistance" : "0px"
+                } ],
+                "highlight" : [ "meni", "body" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z1Desktop.gspec",
+                  "lineNumber" : 126
+                },
+                "name" : "inside partly body ~0px left, ~0px top",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "meni",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "body",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "-1 to 1px",
+                  "realDistance" : "1px"
+                }, {
+                  "from" : {
+                    "object" : "meni",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "body",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "-1 to 1px",
+                  "realDistance" : "0px"
+                } ],
+                "highlight" : [ "meni", "body" ]
+              } ]
+            }, {
+              "name" : "studenti",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z1Desktop.gspec",
+                  "lineNumber" : 70
+                },
+                "name" : "inside partly body ~0px left, ~100px top",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "studenti",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "body",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "-1 to 1px",
+                  "realDistance" : "1px"
+                }, {
+                  "from" : {
+                    "object" : "studenti",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "body",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "99 to 101px",
+                  "realDistance" : "100px"
+                } ],
+                "highlight" : [ "studenti", "body" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z1Desktop.gspec",
+                  "lineNumber" : 128
+                },
+                "name" : "inside partly body ~0px left, ~100px top",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "studenti",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "body",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "-1 to 1px",
+                  "realDistance" : "1px"
+                }, {
+                  "from" : {
+                    "object" : "studenti",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "body",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "99 to 101px",
+                  "realDistance" : "100px"
+                } ],
+                "highlight" : [ "studenti", "body" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "meni" : {
+              "area" : [ 9, 10, 989, 100 ]
+            },
+            "grupelnk" : {
+              "area" : [ 49, 26, 48, 21 ]
+            },
+            "body" : {
+              "area" : [ 8, 10, 995, 414 ]
+            },
+            "vjezbelnk" : {
+              "area" : [ 117, 26, 54, 21 ]
+            },
+            "grupe" : {
+              "area" : [ 595, 110, 403, 315 ]
+            },
+            "studenti" : {
+              "area" : [ 9, 110, 589, 315 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1637100653462,
+        "type" : "node"
+      } ],
+      "time" : 1637100649097,
+      "type" : "node"
+    } ]
+  }
+}

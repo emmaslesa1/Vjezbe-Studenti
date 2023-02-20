@@ -1,0 +1,11 @@
+{
+  "name": "emina-wt-4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 15000 ./public/js/StudentAjaxTest.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

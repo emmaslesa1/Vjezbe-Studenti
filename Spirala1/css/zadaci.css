@@ -1,0 +1,183 @@
+#meni,
+#forma1,
+#forma2 {
+    border: 1px solid black;
+}
+
+#forme {
+    text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 10px auto;
+        font-size: medium;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .pregled {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr);
+        grid-template-rows: 120px auto;
+        width: 98%;
+        margin: 10px auto;
+        background-color: rgb(65, 65, 223);
+    }
+
+    #meni {
+        text-align: center;
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    
+    #meni-lista {
+        display: block;
+        list-style: none;
+        padding-left: 0px;
+        margin-top: 30px;
+    }
+    
+    #meni-lista li a {
+        color: black;
+        text-decoration: none;
+        font-size: medium;
+    }
+
+    #forma1 {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: medium;
+    }
+
+    #forma2 {
+        grid-column: 1/2;
+        grid-row: 3/4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: medium;
+    }
+
+    form {
+        width: 250px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    form>div {
+        display: flex;
+        justify-content: space-between;
+        padding-block: 5px;
+    }
+
+    form>div>select {
+        height: 20px;
+        width: 200px;
+        border-radius: 5px;
+    }
+
+    form>div>textarea {
+        border-radius: 5px;
+    }
+
+    form>#submitBtn {
+        width: 70px;
+        height: 30px;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+
+    form>#submitBtn2 {
+        width: 200px;
+        height: 30px;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+}
+
+
+@media only screen and (min-width: 500px) {  
+    .pregled {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px auto;
+        width: 99%;
+        margin: 10px auto;
+        background-color: rgb(65, 65, 223);
+    }
+
+    #meni {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    #meni-lista {
+        width: max-content;
+        display: inline-flex;
+        list-style: none;
+    }
+    
+    #meni-lista li a {
+        color: black;
+        text-decoration: none;
+        margin-top: 45px;
+        margin-right: 20px;
+        font-size: larger;
+    }
+
+    #forma1 {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #forma2 {
+        grid-column: 1/2;
+        grid-row: 3/4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    form {
+        width: 450px;
+        padding: 10px;
+    }
+
+    form>div {
+        display: flex;
+        justify-content: space-between;
+        padding-block: 5px;
+    }
+
+    form>div>select {
+        height: 20px;
+        width: 300px;
+        border-radius: 5px;
+    }
+
+    form>div>textarea {
+        border-radius: 5px;
+    }
+
+    form>#submitBtn {
+        width: 120px;
+        height: 30px;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+
+    form>#submitBtn2 {
+        width: 220px;
+        height: 30px;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+
+}

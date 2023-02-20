@@ -1,0 +1,121 @@
+@objects
+	body body
+	meni #meni
+	forma1 .forma1
+	forma2 .forma2
+	grupelnk #grupelnk
+	vjezbelnk #vjezbelnk
+	odabirVjezbe #odabirVjezbe
+	odabirZadatka #odabirZadatka
+	odabirVerzije #odabirVerzije
+	komentar #komentar
+	submitBtn #submitBtn
+	submitBtn2 #submitBtn
+	postavirepolnk #postavirepolnk 
+	zadacilnk #zadacilnk
+	errors #errors
+	bezGresaka #bezGresaka
+
+= Width section =
+	meni:
+		width 98 to 100 % of body/width
+	forma1:
+		width 45 to 55 % of body/width
+	forma2:
+		width 45 to 55 % of body/width
+
+= Inside section =
+	grupelnk:
+		inside meni
+	vjezbelnk:
+		inside meni
+	postavirepolnk:
+		inside meni
+	zadacilnk:
+		inside meni
+	odabirVjezbe:
+		inside forma1
+	odabirZadatka:
+		inside forma1
+	odabirVerzije:
+		inside forma1
+	komentar:
+		inside forma1
+	submitBtn:
+		inside forma1
+	errors:
+		inside forma2
+	bezGresaka:
+		inside forma2
+		
+= Left of section =
+	postavirepolnk:
+		left-of zadacilnk
+	vjezbelnk:
+		left-of postavirepolnk
+	grupelnk:
+		left-of vjezbelnk
+
+= Right of section =
+	vjezbelnk:
+		right-of grupelnk
+	postavirepolnk:	
+		right-of vjezbelnk
+	zadacilnk:	
+		right-of postavirepolnk
+
+= Above section =
+	odabirVjezbe:
+		above odabirZadatka
+	odabirZadatka:
+		above odabirVerzije
+	odabirVerzije:
+		above komentar
+	komentar:
+		above submitBtn
+	forma1:
+		above forma2 ~ 0px
+
+= Below section =
+	odabirZadatka:
+		below odabirVjezbe
+	odabirVerzije:
+		below odabirZadatka
+	komentar:
+		below odabirVerzije
+	submitBtn:
+		below komentar
+	forma2:
+		below forma1 ~ 0px
+
+= Visible section =
+	meni:
+		visible
+	grupelnk:
+		visible
+	vjezbelnk:
+		visible
+	postavirepolnk:
+		visible
+	zadacilnk:
+		visible
+	forma1:
+		visible
+	forma2:
+		visible
+	odabirZadatka:
+		visible
+	odabirVjezbe:
+		visible
+	odabirVerzije:
+		visible
+	komentar:
+		visible
+	submitBtn:
+		visible
+	errors:
+		visible
+	bezGresaka:
+		visible
+	submitBtn2:
+		visible

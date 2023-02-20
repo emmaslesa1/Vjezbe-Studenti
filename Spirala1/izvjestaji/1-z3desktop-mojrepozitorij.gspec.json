@@ -1,0 +1,385 @@
+{
+  "testId" : "1-z3desktop-mojrepozitorij.gspec",
+  "name" : "z3Desktop-mojRepozitorij.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  z3Desktop-mojRepozitorij.gspec --url http://localhost/mojRepozitorij.html --size 1024x768 --htmlreport izvjestaji",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: z3Desktop-mojRepozitorij.gspec included tags: ",
+          "status" : "info",
+          "time" : 1637100619977,
+          "sections" : [ {
+            "name" : "Width section",
+            "place" : {
+              "filePath" : "z3Desktop-mojRepozitorij.gspec",
+              "lineNumber" : 19
+            },
+            "objects" : [ {
+              "name" : "meni",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Desktop-mojRepozitorij.gspec",
+                  "lineNumber" : 21
+                },
+                "name" : "width 98 to 100 % of body/width",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "meni",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "meni",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "98 to 100% [975 to 995px]",
+                  "realDistance" : "99% [986px]"
+                } ],
+                "highlight" : [ "meni" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Inside section",
+            "place" : {
+              "filePath" : "z3Desktop-mojRepozitorij.gspec",
+              "lineNumber" : 25
+            },
+            "objects" : [ {
+              "name" : "grupelnk",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Desktop-mojRepozitorij.gspec",
+                  "lineNumber" : 27
+                },
+                "name" : "inside meni",
+                "meta" : [ ],
+                "highlight" : [ "grupelnk", "meni" ]
+              } ]
+            }, {
+              "name" : "vjezbelnk",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Desktop-mojRepozitorij.gspec",
+                  "lineNumber" : 29
+                },
+                "name" : "inside meni",
+                "meta" : [ ],
+                "highlight" : [ "vjezbelnk", "meni" ]
+              } ]
+            }, {
+              "name" : "url",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Desktop-mojRepozitorij.gspec",
+                  "lineNumber" : 31
+                },
+                "name" : "inside forma",
+                "meta" : [ ],
+                "highlight" : [ "url", "forma" ]
+              } ]
+            }, {
+              "name" : "godina",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Desktop-mojRepozitorij.gspec",
+                  "lineNumber" : 33
+                },
+                "name" : "inside forma",
+                "meta" : [ ],
+                "highlight" : [ "godina", "forma" ]
+              } ]
+            }, {
+              "name" : "branch",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Desktop-mojRepozitorij.gspec",
+                  "lineNumber" : 35
+                },
+                "name" : "inside forma",
+                "meta" : [ ],
+                "highlight" : [ "branch", "forma" ]
+              } ]
+            }, {
+              "name" : "submitBtn",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Desktop-mojRepozitorij.gspec",
+                  "lineNumber" : 37
+                },
+                "name" : "inside forma",
+                "meta" : [ ],
+                "highlight" : [ "submitBtn", "forma" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Left of section",
+            "place" : {
+              "filePath" : "z3Desktop-mojRepozitorij.gspec",
+              "lineNumber" : 39
+            },
+            "objects" : [ {
+              "name" : "grupelnk",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Desktop-mojRepozitorij.gspec",
+                  "lineNumber" : 41
+                },
+                "name" : "left-of vjezbelnk",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "grupelnk",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "vjezbelnk",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "20px"
+                } ],
+                "highlight" : [ "grupelnk", "vjezbelnk" ]
+              } ]
+            }, {
+              "name" : "postavirepolnk",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Desktop-mojRepozitorij.gspec",
+                  "lineNumber" : 43
+                },
+                "name" : "left-of zadacilnk",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "postavirepolnk",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "zadacilnk",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "19px"
+                } ],
+                "highlight" : [ "postavirepolnk", "zadacilnk" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Right of section",
+            "place" : {
+              "filePath" : "z3Desktop-mojRepozitorij.gspec",
+              "lineNumber" : 45
+            },
+            "objects" : [ {
+              "name" : "vjezbelnk",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Desktop-mojRepozitorij.gspec",
+                  "lineNumber" : 47
+                },
+                "name" : "right-of grupelnk",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "vjezbelnk",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "grupelnk",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "20px"
+                } ],
+                "highlight" : [ "vjezbelnk", "grupelnk" ]
+              } ]
+            }, {
+              "name" : "zadacilnk",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Desktop-mojRepozitorij.gspec",
+                  "lineNumber" : 49
+                },
+                "name" : "right-of postavirepolnk",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "zadacilnk",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "postavirepolnk",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "19px"
+                } ],
+                "highlight" : [ "zadacilnk", "postavirepolnk" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Above section",
+            "place" : {
+              "filePath" : "z3Desktop-mojRepozitorij.gspec",
+              "lineNumber" : 51
+            },
+            "objects" : [ {
+              "name" : "meni",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Desktop-mojRepozitorij.gspec",
+                  "lineNumber" : 53
+                },
+                "name" : "above forma",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "meni",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "forma",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "0px"
+                } ],
+                "highlight" : [ "meni", "forma" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Below section",
+            "place" : {
+              "filePath" : "z3Desktop-mojRepozitorij.gspec",
+              "lineNumber" : 55
+            },
+            "objects" : [ {
+              "name" : "forma",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Desktop-mojRepozitorij.gspec",
+                  "lineNumber" : 57
+                },
+                "name" : "below meni",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "forma",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "meni",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "0px"
+                } ],
+                "highlight" : [ "forma", "meni" ]
+              } ]
+            }, {
+              "name" : "submitBtn",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Desktop-mojRepozitorij.gspec",
+                  "lineNumber" : 59
+                },
+                "name" : "below branch",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "submitBtn",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "branch",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "25px"
+                } ],
+                "highlight" : [ "submitBtn", "branch" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Visible section",
+            "place" : {
+              "filePath" : "z3Desktop-mojRepozitorij.gspec",
+              "lineNumber" : 61
+            },
+            "objects" : [ {
+              "name" : "meni",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Desktop-mojRepozitorij.gspec",
+                  "lineNumber" : 63
+                },
+                "name" : "visible",
+                "highlight" : [ "meni" ]
+              } ]
+            }, {
+              "name" : "forma",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "z3Desktop-mojRepozitorij.gspec",
+                  "lineNumber" : 65
+                },
+                "name" : "visible",
+                "highlight" : [ "forma" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "meni" : {
+              "area" : [ 12, 10, 986, 100 ]
+            },
+            "submitBtn" : {
+              "area" : [ 460, 284, 90, 30 ]
+            },
+            "zadacilnk" : {
+              "area" : [ 357, 27, 52, 21 ]
+            },
+            "grupelnk" : {
+              "area" : [ 53, 27, 48, 21 ]
+            },
+            "forma" : {
+              "area" : [ 12, 110, 986, 250 ]
+            },
+            "vjezbelnk" : {
+              "area" : [ 121, 27, 54, 21 ]
+            },
+            "branch" : {
+              "area" : [ 422, 233, 308, 26 ]
+            },
+            "postavirepolnk" : {
+              "area" : [ 196, 27, 142, 21 ]
+            },
+            "url" : {
+              "area" : [ 422, 161, 308, 26 ]
+            },
+            "godina" : {
+              "area" : [ 422, 197, 308, 26 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1637100616045,
+        "type" : "node"
+      } ],
+      "time" : 1637100611596,
+      "type" : "node"
+    } ]
+  }
+}

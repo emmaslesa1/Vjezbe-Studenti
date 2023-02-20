@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/zadaci.css">
+    <title>Zadaci</title>
+</head>
+<body>
+    <div class="pregled">
+        <div id="meni">
+            <ul id="meni-lista">
+                <li><a id="grupelnk" href="./grupe.html">Grupe</a></li>
+                <li><a id="vjezbelnk" href="./vježbe.html">Vježbe</a></li>
+                <li><a id="postavirepolnk" href="./mojRepozitorij.html">Postavi repozitorij</a></li>
+                <li><a id="zadacilnk" href="#">Zadaci</a></li>
+            </ul>
+        </div>
+        <div id="forme">
+            <div class="forma1">
+                <form>
+                    <div>
+                        <label for="odabirVjezbe">Odabir vježbe:</label>
+                        <select name="odabirVjezbe" id="odabirVjezbe">
+                            <option value="vjezba1">Vježba 1</option>
+                            <option value="vjezba2">Vježba 2</option>
+                            <option value="vjezba3">Vježba 3</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="odabirZadatka">Odabir zadatka:</label>
+                        <select name="odabirZadatka" id="odabirZadatka">
+                            <option value="zadatak1">Zadatak 1</option>
+                            <option value="zadatak2">Zadatak 2</option>
+                            <option value="zadatak3">Zadatak 3</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="odabirVerzije">Odabir verzije:</label>
+                        <select name="odabirVerzije" id="odabirVerzije">
+                            <option value="verzija1.0">v1.0</option>
+                            <option value="vjezba1.1">v1.1</option>
+                            <option value="vjezba1.2">v1.2</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="komentar">Komentar:</label>
+                        <textarea name="komentar" id="komentar" cols="38" rows="3"></textarea>
+                    </div>
+                    <button id="submitBtn" type="submit">POŠALJI</button>
+                </form>
+            </div>
+            <div class="forma2">
+                <form>
+                    <div>
+                        <label for="errors">Errors log:</label>
+                        <textarea name="errors" id="errors" cols="38" rows="3"></textarea>
+                    </div>
+                    <div>
+                        <label for="bezGresaka">Bez grešaka:</label>
+                        <input type="checkbox" name="bezGresaka" id="bezGresaka"></input>
+                    </div>
+                    <button id="submitBtn2" type="submit">DODAJ REZULTATE TESTA</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
