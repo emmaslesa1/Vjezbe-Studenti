@@ -1,2 +1,2 @@
 # Vježbe-Studenti
-proba
+Web stranica urađena na predmetu Web tehnologije.
